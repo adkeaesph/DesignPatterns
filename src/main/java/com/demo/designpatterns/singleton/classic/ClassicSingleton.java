@@ -1,4 +1,5 @@
 /*
+ * Classic Implementation of Singleton class
  * Here we have declared getInstance() static so that we can call it
  * without instantiating the class. The first time getInstance() is called
  * it creates a new singleton object and after that it just returns the same object.
@@ -11,7 +12,7 @@ package com.demo.designpatterns.singleton.classic;
 public class ClassicSingleton {
   private static ClassicSingleton singletonInstance = null;
 
-  private ClassicSingleton() {};
+  private ClassicSingleton() {}
 
   public static ClassicSingleton getSingletonInstance() {
     if(singletonInstance == null)

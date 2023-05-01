@@ -1,4 +1,5 @@
 /*
+ * Singleton by synchronized getter (getInstance() method)
  * Here using synchronized makes sure that only one thread
  * at a time can execute getInstance().
  * The main disadvantage of this is method is that using synchronized
@@ -12,7 +13,7 @@ package com.demo.designpatterns.singleton.synchronizedgetter;
 public class SingletonBySG {
   private static SingletonBySG singletonInstance = null;
 
-  private SingletonBySG() {};
+  private SingletonBySG() {}
 
   public static synchronized SingletonBySG getSingletonInstance() {
     if(singletonInstance == null)
