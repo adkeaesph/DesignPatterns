@@ -1,6 +1,6 @@
-package com.demo.designpatterns;
+package com.demo.designpatterns.singleton.earlyinstantiation;
 
-import com.demo.designpatterns.singleton.SingletonByEI;
+import com.demo.designpatterns.singleton.earlyinstantiation.SingletonByEI;
 
 public class Driver {
     public static void main(String[] args) {

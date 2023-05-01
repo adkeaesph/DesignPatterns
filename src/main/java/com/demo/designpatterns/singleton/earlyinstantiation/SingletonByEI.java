@@ -6,7 +6,7 @@
  * Use this method only when your singleton class is light and
  * is used throughout the execution of your program.
  */
-package com.demo.designpatterns.singleton;
+package com.demo.designpatterns.singleton.earlyinstantiation;
 
 public class SingletonByEI {
   private static final SingletonByEI singletonInstance = new SingletonByEI();
