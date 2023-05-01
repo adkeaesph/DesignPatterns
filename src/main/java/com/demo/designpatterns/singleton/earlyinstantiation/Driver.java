@@ -1,7 +1,5 @@
 package com.demo.designpatterns.singleton.earlyinstantiation;
 
-import com.demo.designpatterns.singleton.earlyinstantiation.SingletonByEI;
-
 public class Driver {
     public static void main(String[] args) {
         SingletonByEI singletonInstance1 = SingletonByEI.getInstance();
